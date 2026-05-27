@@ -23,3 +23,48 @@ Technologies Used:
 - Microsoft 365 Admin Center
 - Microsoft Entra ID
 - CSV File Import Automation
+
+## Bulk User Creation
+Using PowerShell automation, I created 10 Microsoft 365 users for Greenwood Accountants from a CSV file.
+# Achievements
+- Created multiple users automatically
+- Reduced manual configuration time
+- Improved deployment consistency
+
+## Job Title Assignment
+Each user was assigned a specific organizational job title during the automation process.
+
+## Manager Hierarchy Configuration
+I configured reporting structures by assigning managers to users within Microsoft Entra ID.
+
+## License Assignment Automation
+PowerShell automation was used to assign Microsoft 365 licenses to multiple users simultaneously.
+# Benefits
+- Faster onboarding process
+- Reduced administrative workload
+- Consistent license allocation
+
+## Challenges Faced
+- Understanding Microsoft Graph authentication
+- Managing license SKU IDs
+- Handling CSV formatting errors
+- Building proper manager hierarchy relationships
+
+## Lessons Learned
+Through this project, I gained practical experience in:
+- Microsoft 365 administration
+- Identity and access management
+- PowerShell scripting automation
+- Bulk user provisioning
+- License management
+- Organizational hierarchy implementation
+- Administrative efficiency through automation
+This project significantly improved my confidence in handling enterprise Microsoft 365 administrative tasks.
+
+## Author
+John Taderi
+Microsoft 365 Administrator | Entra ID | PowerShell Automation | Exchange Online
+
+GitHub: (Add your GitHub profile link)
+
+LinkedIn: (Add your LinkedIn profile link)
