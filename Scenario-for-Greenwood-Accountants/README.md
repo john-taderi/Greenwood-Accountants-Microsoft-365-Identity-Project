@@ -1,2 +1,0 @@
-## Scenario for Greenwood Accountants
-
