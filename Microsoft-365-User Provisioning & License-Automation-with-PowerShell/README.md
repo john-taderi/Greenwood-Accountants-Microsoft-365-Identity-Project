@@ -61,10 +61,4 @@ Through this project, I gained practical experience in:
 - Administrative efficiency through automation
 This project significantly improved my confidence in handling enterprise Microsoft 365 administrative tasks.
 
-## Author
-John Taderi
-Microsoft 365 Administrator | Entra ID | PowerShell Automation | Exchange Online
 
-GitHub: (Add your GitHub profile link)
-
-LinkedIn: (Add your LinkedIn profile link)
