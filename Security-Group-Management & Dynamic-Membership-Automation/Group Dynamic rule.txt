@@ -1,0 +1,9 @@
+New-MgGroup `
+    -DisplayName "SG-All-Staff" `
+    -Description "Dynamic group for all Greenwood Accountants staff" `
+    -MailEnabled:$false `
+    -MailNickname "SGAllStaff" `
+    -SecurityEnabled:$true `
+    -GroupTypes "DynamicMembership" `
+    -MembershipRule '(user.department -eq "Finance") or (user.department -eq "HR") or (user.department -eq "IT") or (user.department -eq "Sales") or (user.department -eq "Management")' `
+    -MembershipRuleProcessingState "On"
