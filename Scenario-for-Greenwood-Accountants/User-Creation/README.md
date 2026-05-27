@@ -1,19 +1,26 @@
-## User Creation
-Approach
-I used powershell automation to create multiple users at a go.
+# Microsoft 365 Identity Foundation Build
 
-## Assign License 
-Multiple license were assigned to the users with powershell automation
+## Overview
+This project documents the implementation of Microsoft 365 identity and access management configurations including:
 
-UPN Naming Convention
-adebayo.oladimejigreenwood@christtech.co.uk
-chioma.okaforgreenwood@christtech.co.uk
-daniel.adeyemigreenwood@christtech.co.uk
-esther.balogungreenwood@christtech.co.uk
-femi.ugbomagreenwood@christtech.co.uk
-grace.eweregreenwood@christtech.co.uk
-henry.ajibolagreenwood@christtech.co.uk
-israel.nwosugreenwood@christtech.co.uk
-joy.adenirangreenwood@christtech.co.uk
-kemi.alukogreenwood@christtech.co.uk
+- Multiple Microsoft 365 license assignments
+- Role-Based Access Control (RBAC)
+- Least Privilege Access model
+- Entra ID administration
+- Exchange Online administration
+- SharePoint access governance
+
+## Technologies Used
+- Microsoft Entra ID
+- Microsoft 365 Admin Center
+- Exchange Online
+- SharePoint Online
+- Microsoft Teams
+- PowerShell
+
+## Objectives
+- Improve identity governance
+- Secure administrative access
+- Ensure compliance with least privilege principles
+- Enhance collaboration and productivity
 
