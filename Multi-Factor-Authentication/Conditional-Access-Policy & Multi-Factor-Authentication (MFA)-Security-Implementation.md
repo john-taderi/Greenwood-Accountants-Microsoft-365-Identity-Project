@@ -11,3 +11,10 @@ Microsoft Authenticator
 The MFA strategy was designed using a Zero Trust security model:
 Never trust, always verify.
 The objective was to ensure all users authenticate with an additional verification factor before accessing Microsoft 365 cloud resources.
+
+## MFA Design Goals
+- Protect organizational identities
+- Reduce risk of compromised credentials
+- Enforce secure authentication practices
+- Provide secure fallback authentication methods
+- Minimize user disruption during rollout
