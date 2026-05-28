@@ -47,28 +47,4 @@ Number of days before users are asked to reconfirm = 180 days
 Step 5: Save Configuration
 Click:
 Save
-End User Testing
-Test Scenario
 
-A complete password reset test was performed using a standard user account.
-
-Test Steps
-User Registration
-
-The test user:
-
-Logged into Greenwood Microsoft 365
-Registered:
-Mobile phone number
-Recovery email
-Password Reset Process
-
-The user performed the following:
-
-Opened the password reset portal
-Entered username
-Verified identity using:
-Email verification code
-SMS verification code
-Created a new password
-Successfully logged in with the new password
