@@ -73,3 +73,14 @@ I used department-based prefixes
 
 #### Conclusion
 This project provided hands-on experience in Microsoft 365 collaboration architecture, cloud resource automation, and integrated workplace productivity services.
+
+
+<img width="540" height="408" alt="M365 Script" src="https://github.com/user-attachments/assets/c2780c0d-c720-4f32-83a6-05420dcb302d" />
+
+
+
+
+
+
+
+
