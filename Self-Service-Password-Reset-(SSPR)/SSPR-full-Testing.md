@@ -1,4 +1,4 @@
-## Testing
+### Testing
 User Testing
 Test Scenario
 A complete password reset test was performed using a standard user account.
@@ -23,10 +23,11 @@ SMS verification code
 Created a new password
 Successfully logged in with the new password
 
-# Test Results
-Test Item	                             Result
-User Registration	                   Successful
-Email Verification	                 Successful
-SMS Verification	                   Successful
-Password Reset	                     Successful
-Login with New Password	             Successful
+### Test Results
+| Test Item	 | Result |
+|------------|--------|
+| User Registration | Successful |
+| Email Verification | Successful |
+| SMS Verification	 | Successful |
+| Password Reset | Successful |
+| Login with New Password | Successful |
