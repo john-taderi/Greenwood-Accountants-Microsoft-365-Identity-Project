@@ -1,7 +1,7 @@
-## Custom Banned Password
+# Custom Banned Password
 The following organization-related terms were added to the custom banned password list:
 
-# Banned Terms
+## Banned Terms
 Greenwood
 Greenwood123
 GreenwoodAccountants
