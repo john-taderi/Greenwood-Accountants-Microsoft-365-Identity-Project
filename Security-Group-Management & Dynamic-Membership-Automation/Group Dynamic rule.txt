@@ -7,3 +7,8 @@ New-MgGroup `
     -GroupTypes "DynamicMembership" `
     -MembershipRule '(user.department -eq "Finance") or (user.department -eq "HR") or (user.department -eq "IT") or (user.department -eq "Sales") or (user.department -eq "Management")' `
     -MembershipRuleProcessingState "On"
+
+
+
+
+
