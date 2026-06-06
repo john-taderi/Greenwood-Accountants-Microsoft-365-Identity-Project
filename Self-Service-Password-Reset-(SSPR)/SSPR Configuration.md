@@ -47,6 +47,41 @@ Number of days before users are asked to reconfirm = 180 days
 > Click:
 Save
 
+
+### Testing
+User Testing
+Test Scenario
+A complete password reset test was performed using a standard user account.
+
+Test Steps
+User Registration
+The test user:
+
+Logged into Greenwood Microsoft 365 (christtech.co.uk) 
+Registered:
+Mobile phone number
+Recovery email
+Password Reset Process
+
+The user performed the following:
+
+Opened the password reset portal
+Entered username
+Verified identity using:
+Email verification code
+SMS verification code
+Created a new password
+Successfully logged in with the new password
+
+### Test Results
+| Test Item	 | Result |
+|------------|--------|
+| User Registration | Successful |
+| Email Verification | Successful |
+| SMS Verification	 | Successful |
+| Password Reset | Successful |
+| Login with New Password | Successful |
+
 ### Key Lessons
 The SSPR project demonstrated the importance of securing password resets with two authentication methods while reducing helpdesk dependency through self-service capabilities. It also showed the need for proper user registration, testing, and user education to ensure a smooth and secure password reset experience.
 
