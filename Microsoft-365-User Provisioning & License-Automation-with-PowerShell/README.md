@@ -39,6 +39,11 @@ I configured reporting structures by assigning managers to users within Microsof
 
 #### License Assignment Automation
 PowerShell automation was used to assign Microsoft 365 licenses to multiple users simultaneously.
+
+<img width="540" height="408" alt="M365 Script" src="https://github.com/user-attachments/assets/00184c95-e86e-4934-a21f-877d55b638e0" />
+
+
+
 #### Benefits
 - Faster onboarding process
 - Reduced administrative workload
