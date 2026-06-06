@@ -1,9 +1,9 @@
-## Policy Overview
+# Policy Overview
 This policy register defines the administrative roles, responsibilities, access scope, and security controls implemented within the Microsoft 365 environment for Greenwood Accountants(christtech.co.uk).
 
 The purpose of this register is to ensure proper governance, role-based access control (RBAC), accountability, and compliance with security best practices.
 
-## Policy Objectives
+#### Policy Objectives
 The objectives of this policy are to:
 - Enforce least privilege access
 - Define administrative responsibilities clearly
@@ -11,7 +11,7 @@ The objectives of this policy are to:
 - Improve security and accountability
 - Standardize administrative role management
 
-## Administrative Role Register
+#### Administrative Role Register
 Role - Global Administrator
 Scope of Access - Full Microsoft 365 tenant access
 Responsibilities	- Tenant-wide configuration, security, billing, identity management	
