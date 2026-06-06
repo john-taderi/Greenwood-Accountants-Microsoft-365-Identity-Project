@@ -1,4 +1,4 @@
-## Overview
+# Overview
 This project focuses on improving password security in Microsoft 365 by configuring a custom banned password list using organization-specific terms for Greenwood Accountants(christtech.co.uk).
 
 The objective is to prevent users from creating weak or predictable passwords that contain company-related words or easily guessed terms.
@@ -9,7 +9,7 @@ The project includes:
 - Verifying policy effectiveness
 - Documenting security rationale
 
-## Objectives
+### Objectives
 The objectives of this project are to:
 - Prevent weak password creation
 - Block company-related password patterns
