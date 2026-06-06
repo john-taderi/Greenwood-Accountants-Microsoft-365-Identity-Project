@@ -26,6 +26,10 @@ Technologies Used:
 
 #### Bulk User Creation
 Using PowerShell automation, I created 10 Microsoft 365 users for Greenwood Accountants from a CSV file.
+
+<img width="516" height="448" alt="Multiple Security groupcreation txt" src="https://github.com/user-attachments/assets/c85fd503-f6e2-499a-be4c-2f9e6e1beac0" />
+
+
 #### Achievements
 - Created multiple users automatically
 - Reduced manual configuration time
