@@ -35,3 +35,23 @@ Password
 Welcome
 
 These terms were selected because they are predictable, easy to guess, and commonly associated with the organization.
+
+### Why Custom Banned Passwords are Important
+> Users often create passwords using:
+- Company names
+-BDepartment names
+- Common business terms
+- Simple number combinations
+> Attackers commonly target these predictable patterns during password attacks.
+
+By banning organization-specific terms, the organization reduces the likelihood of:
+- Password spraying attacks
+- Credential guessing
+- Unauthorized access
+- Weak password usage
+
+<img width="1600" height="839" alt="Password Protection" src="https://github.com/user-attachments/assets/84c43dfc-adb1-4559-9280-b571a7405004" />
+
+<img width="1600" height="833" alt="SMS" src="https://github.com/user-attachments/assets/b44bde33-2578-444c-b4c6-12d35f14bcf1" />
+
+
