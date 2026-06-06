@@ -1,7 +1,7 @@
-## Policy Overview
+# Policy Overview
 The Conditional Access policy was configured to require MFA for all users accessing cloud applications for Greenwood.
 
-## Policy Scope
+### Policy Scope
 Included Users
    - All organizational users included
 Included Cloud Apps
@@ -9,22 +9,26 @@ Included Cloud Apps
 Access Control
    - It requires Multi-Factor Authentication
 
-## Conditional Access Logic
+### Conditional Access Logic
 IF user signs into Greenwood Microsoft 365 tenant
 AND accesses any cloud application
 THEN require MFA verification
 
-## MFA Authentication Methods
+
+<img width="795" height="601" alt="Condition Access" src="https://github.com/user-attachments/assets/58d0e3bc-8d66-40ab-886b-1a64f6b074a5" />
+
+
+### MFA Authentication Methods
 The Primary Authentication Method used:
-# Microsoft Authenticator App
+### Microsoft Authenticator App
 The Microsoft Authenticator application was configured as the preferred MFA method because it provides:
 - Push notification approval
 - Number matching verification
 - Stronger security protection
 - Faster authentication experience
 
-## Fallback Authentication Method
-# SMS Authentication
+### Fallback Authentication Method
+SMS Authentication
 I configured SMS verification as a fallback option for users unable to install Microsoft Authenticator.
 
 Reasons for SMS Fallback
@@ -32,21 +36,21 @@ Reasons for SMS Fallback
 - It limited smartphone access
 - It allows temporary onboarding limitations
 
-## MFA Rollout Strategy
+### MFA Rollout Strategy
 Rollout Phases include
-# Phase 1 – Pilot Testing
+Phase 1 – Pilot Testing
 Initial rollout was performed with:
 - IT administrators
 - Test accounts
 - Early adopters
 
-#  Phase 2 – Departmental Rollout
+Phase 2 – Departmental Rollout
 I expanded the MFA enforcement to:
 - Finance Department
 - HR Department
 - Management Team
 
-# Phase 3 – Organization-wide Enforcement
+Phase 3 – Organization-wide Enforcement
 MFA policy fully enforced for all users.
 
 ## MFA Registration Process
@@ -67,12 +71,16 @@ Impact of the challenges on the users
 - There is increased support requests from users
 - Users onboarding resistance
   
-   # What I do to resolve the challenges
+What I do to resolve the challenges
 - I Provided user onboarding guidance
 - I Shared MFA setup instructions
 - I assisted users during registration process
 
-   # SMS Fallback Limitations
+<img width="822" height="627" alt="MFA" src="https://github.com/user-attachments/assets/11d4e59b-d6df-4d38-bd46-3194248f0595" />
+
+
+
+SMS Fallback Limitations
 SMS authentication presented several limitations:
 - Delayed OTP delivery
 - Mobile network dependency
@@ -82,21 +90,21 @@ SMS authentication presented several limitations:
 - I encouraged users to adopt Microsoft Authenticator
 - I educated users on secure MFA practices
 
-## Challenges of Conditional Access Policy Lockout Risk
+#### Challenges of Conditional Access Policy Lockout Risk
 Incorrect conditional access configuration could potentially lock administrators out of the environment.
-# I do this as resolution
+I do this as resolution
 - Configured break-glass administrator accounts
 - Tested policies before full deployment
 - Applied staged enforcement approach
 
-## Challenges of Policy Propagation Delay
+#### Challenges of Policy Propagation Delay
 Conditional access policies required propagation time before taking full effect across the environment.
-# I resolved to:
+I resolved to:
 - Allowed synchronization time
 - Verified enforcement using sign-in logs
 - Performed validation testing
 
-## Key Lessons Learned
+#### Key Lessons Learned
 Through this hand-on project, I gained practical experience in:
 
 - Microsoft Entra ID Conditional Access
@@ -106,7 +114,7 @@ Through this hand-on project, I gained practical experience in:
 - Azure AD security operations
 - Authentication policy enforcement
 
-## Conclusion
+#### Conclusion
 - This project significantly improved my hands-on experience in Microsoft Entra ID security administration and enterprise identity protection.
 
 - By implementing Conditional Access policies, MFA enforcement, and fallback authentication methods, I gained practical knowledge of securing Microsoft 365 environments using Zero Trust principles and modern authentication controls.
