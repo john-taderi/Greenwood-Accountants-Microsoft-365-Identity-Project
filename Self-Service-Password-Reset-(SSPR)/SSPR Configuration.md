@@ -42,7 +42,8 @@ Enable:
 Require users to register when signing in = Yes
 Set:
 Number of days before users are asked to reconfirm = 180 days
-Step 5: Save Configuration
-Click:
+
+### Step 5: Save Configuration
+> Click:
 Save
 
