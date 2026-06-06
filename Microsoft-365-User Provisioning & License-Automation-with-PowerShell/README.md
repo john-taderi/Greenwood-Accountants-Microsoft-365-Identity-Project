@@ -1,4 +1,4 @@
-## Overview
+# Overview
 This project demonstrates how I automated Microsoft 365 user creation, job title assignment, manager hierarchy configuration, and license assignment using PowerShell automation.
 
 The automation was implemented for a sample organization called Greenwood Accountants using the domain:
@@ -7,7 +7,7 @@ user.greenwood@christtech.co.uk
 
 The project improved efficiency, reduced manual administrative tasks, and enhanced my understanding of Microsoft 365 automation and identity management.
 
-## Objectives
+#### Objectives
 - Automate bulk user creation in Microsoft 365
 - Assign job titles automatically
 - Configure manager hierarchy
@@ -16,7 +16,7 @@ The project improved efficiency, reduced manual administrative tasks, and enhanc
 - Improve consistency and accuracy
 - Gain hands-on experience with PowerShell automation
 
-## Technologies Used
+#### Technologies Used
 Technologies Used:
 - Windows PowerShell
 - Microsoft Graph PowerShell SDK
@@ -24,33 +24,33 @@ Technologies Used:
 - Microsoft Entra ID
 - CSV File Import Automation
 
-## Bulk User Creation
+#### Bulk User Creation
 Using PowerShell automation, I created 10 Microsoft 365 users for Greenwood Accountants from a CSV file.
-# Achievements
+#### Achievements
 - Created multiple users automatically
 - Reduced manual configuration time
 - Improved deployment consistency
 
-## Job Title Assignment
+#### Job Title Assignment
 Each user was assigned a specific organizational job title during the automation process.
 
-## Manager Hierarchy Configuration
+#### Manager Hierarchy Configuration
 I configured reporting structures by assigning managers to users within Microsoft Entra ID.
 
-## License Assignment Automation
+#### License Assignment Automation
 PowerShell automation was used to assign Microsoft 365 licenses to multiple users simultaneously.
-# Benefits
+#### Benefits
 - Faster onboarding process
 - Reduced administrative workload
 - Consistent license allocation
 
-## Challenges Faced
+#### Challenges Faced
 - Understanding Microsoft Graph authentication
 - Managing license SKU IDs
 - Handling CSV formatting errors
 - Building proper manager hierarchy relationships
 
-## Lessons Learned
+#### Lessons Learned
 Through this project, I gained practical experience in:
 - Microsoft 365 administration
 - Identity and access management
