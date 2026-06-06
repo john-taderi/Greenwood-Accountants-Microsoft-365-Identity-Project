@@ -1,5 +1,5 @@
-# Identity Strategy Design Document
-## Overview 
+# Entra Identity Strategy Design Document for Greenwood Accountants
+### Overview 
 Greenwood Accountants is implementing a structured identity and access management solution using Microsoft Entra ID to manage.
 - user access
 - departmental permissions
@@ -8,13 +8,13 @@ Greenwood Accountants is implementing a structured identity and access managemen
 - automated identity governance
 
 The environment is designed to support:
-Finance
-Human Resources (HR)
-Information Technology (IT)
-Sales
-Management Departments
+- Finance
+- Human Resources (HR)
+- Information Technology (IT)
+- Sales
+- Management Departments
 
-## Objectives of the Group Design
+### Objectives of the Group Design
 The group structure is designed to achieve the following objectives:
 - Centralized access management
 - Simplified administration
@@ -25,27 +25,28 @@ The group structure is designed to achieve the following objectives:
 - Scalability for future growth
 - Departmental separation of access
 
-## Group Design Standards
-# Naming Convention
+### Group Design Standards
+#### Naming Convention
 The following naming standards are used:
-Prefix                  Meaning
-SG                  Security Group
-M365                Microsoft 365 Group
-DG                  Dynamic Group
+| Prefix | Meaning |
+|--------|---------|
+| SG | | Security Group |
+| M365 | Microsoft 365 Group |
+| DG | Dynamic Group |
 
-<Examples:>
-SG-Finance-Users
-SG-IT-Admins
-SG-All-Staff
+<Examples📇
+- SG-Finance-Users
+- SG-IT-Admins
+- SG-All-Staff
 
-## Security Group Structure
-# Finance Department Group
+### Security Group Structure
+#### Finance Department Group
 Group Name
 - SG-Finance-Users
 Group Type
 - Security Group
   
-# Purpose
+#### Purpose
 Provides Finance department users with:
 - accounting application access
 - finance SharePoint access
@@ -53,15 +54,15 @@ Provides Finance department users with:
 - Membership Type
 - Assigned Membership
   
-# Members
+#### Members
 - Finance department staff only.
 
-## Human Resources Group
+### Human Resources Group
 Group Name
 - SG-HR-Users
 Group Type
 - Security Group
-# Purpose
+#### Purpose
 Provides HR staff with:
 - HR application access
 - employee record permissions
@@ -69,40 +70,40 @@ Provides HR staff with:
 - Membership Type
 - Assigned Membership
 
-## IT Administration Group
+### IT Administration Group
 Group Name
 - SG-IT-Admins
   Group Type
   - Security Group
 
-# Purpose
+#### Purpose
 Provides IT administrators with:
 - elevated administrative permissions
 - device management access
 - system administration privileges
 
-# Membership Type
+#### Membership Type
 Assigned Membership
 
-## Security Note
+#### Security Note
 Membership should be tightly controlled due to privileged access.
 
-## Management Group
+### Management Group
 Group Name
 - SG-Management
 
 Group Type
 - Security Group
-Purpose
+### Purpose
 Provides management staff with:
 - executive resource access
 - management reporting tools
 - strategic document access
-- 
-Membership Type
+  
+#### Membership Type
 - Assigned Membership
 
-## Dynamic Group Structure
+### Dynamic Group Structure
 All Staff Dynamic Group
 Group Name
 - SG-All-Staff
@@ -110,7 +111,7 @@ Group Name
 Group Type
 - Dynamic Security Group
 
-# Purpose
+#### Purpose
 Automatically groups all employees across departments.
 Dynamic Membership Rule
 (user.department -eq "Finance") or
@@ -119,7 +120,7 @@ Dynamic Membership Rule
 (user.department -eq "Sales") or
 (user.department -eq "Management")
 
-Membership Type
+#### Membership Type
 - Dynamic Membership
 Use Cases
 - company-wide communications
@@ -127,12 +128,13 @@ Use Cases
 - Conditional Access policies
 - organization-wide application access
 
-## Recommended Microsoft 365 Collaboration Groups
+#### Recommended Microsoft 365 Collaboration Groups
 The following Microsoft 365 groups are recommended for collaboration purposes:
-Group Name                                   Purpose
-M365-Finance-Team                       Finance collaboration
-M365-HR-Team                            HR collaboration
-M365-Management-Team                    Executive collaboration
+| Group Name | Purpose |
+|------------|-----------|
+| M365-Finance-Team | Finance collaboration |
+| M365-HR-Team | HR collaboration |
+| M365-Management-Team | Executive collaboration |
 
 These groups provide:
 - Teams integration
@@ -141,41 +143,42 @@ These groups provide:
 - SharePoint site
 - Planner access
 
-## User-to-Group Mapping
-Department                         Assigned Group
-Finance                           SG-Finance-Users
-HR                                SG-HR-Users
-IT                                SG-IT-Admins
-Management                        SG-Management
-All Departments                   SG-All-Staff
+#### User-to-Group Mapping
+| Department | Assigned Group |
+|------------|----------------|
+| Finance | SG-Finance-Users
+| HR | SG-HR-Users |
+| IT | SG-IT-Admins |
+| Management | SG-Management |
+| All Departments | SG-All-Staff |
 
-## Access Control Strategy
+#### Access Control Strategy
 The organization adopts Role-Based Access Control (RBAC) principles.
 Access is granted:
 - based on department
 - based on job role
 - through group membership instead of direct user assignment
 
-# Benefits:
+#### Benefits:
 - easier auditing
 - simplified administration
 - reduced configuration errors
 - improved scalability
 
-## License Assignment Strategy
+#### License Assignment Strategy
 Licenses are assigned using group-based licensing.
 Recommended assignment:
 SG-All-Staff
 → Microsoft 365 Business Premium license
 
-# Benefits:
+#### Benefits:
 - automatic onboarding
 - simplified administration
 - reduced manual errors
 
-## Dynamic Group Processing Consideration
+### Dynamic Group Processing Consideration
 
-# Dynamic group membership updates are not immediate.
+#### Dynamic group membership updates are not immediate.
 Expected evaluation delay:
 5–30 minutes
 
@@ -184,33 +187,33 @@ This may temporarily affect:
 - Teams access
 - Conditional Access enforcement
 
-# Mitigation:
+### Mitigation:
 - allow synchronization time
 - verify attribute consistency
 - monitor membership processing
 
-## Security Recommendations
+### Security Recommendations
 - Least Privilege Principle
 - Users should receive only the minimum access required.
 
-## Administrative Group Protection
+### Administrative Group Protection
 The following groups require restricted membership:
 - SG-IT-Admins
 - SG-Management
   
-# Recommended controls:
+### Recommended controls:
 - Privileged Identity Management (PIM)
 - MFA enforcement
 - Conditional Access policies
 
-## Naming Governance
+### Naming Governance
 Maintain consistent naming standards for:
 - clarity
 - automation
 - reporting
 - scalability
 
-## Scalability Considerations
+### Scalability Considerations
 The design supports future expansion, including:
 - additional departments
 - regional offices
@@ -218,7 +221,7 @@ The design supports future expansion, including:
 - application-specific groups
 - hybrid identity integration
 
-## Conclusion
+#### Conclusion
 The Greenwood Accountants group structure design provides:
 - secure identity management
 - scalable access control
