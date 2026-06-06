@@ -1,4 +1,4 @@
-## Overview
+# Overview
 This project demonstrates the implementation of Microsoft Entra ID Conditional Access policies and Multi-Factor Authentication (MFA) security controls within a Microsoft 365 environment for Greenwood Accountants.
 
 ### Microsoft Technologies used
@@ -19,4 +19,12 @@ The objective was to ensure all users authenticate with an additional verificati
 - Provide secure fallback authentication methods
 - Minimize user disruption during rollout
 
-  
+<img width="795" height="601" alt="Condition Access" src="https://github.com/user-attachments/assets/cf90bee2-8219-477f-aa62-df5fa80c4d29" />
+
+
+<img width="822" height="627" alt="MFA" src="https://github.com/user-attachments/assets/e2d03679-561c-4d3b-8508-57ecbc292e75" />
+
+
+
+
+
