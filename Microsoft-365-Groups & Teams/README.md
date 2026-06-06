@@ -79,6 +79,13 @@ This project provided hands-on experience in Microsoft 365 collaboration archite
 
 
 
+<img width="1359" height="502" alt="Groups-Teams" src="https://github.com/user-attachments/assets/a632e6be-da7a-4113-9fbe-991d417ee2bd" />
+
+
+
+
+
+
 
 
 
