@@ -28,5 +28,6 @@ I choose the required role from the list of available administrator roles for ea
 * Click Add Assignments
 * Select the appropriate user
 * Save the assignment
+<img width="1600" height="822" alt="Admin Roles" src="https://github.com/user-attachments/assets/1f85c5b9-53e4-4b7e-b5c4-3e617d1f5a01" />
 
 Users were assigned only the minimum permissions required to perform their responsibilities.
